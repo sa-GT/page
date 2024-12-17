@@ -35,6 +35,12 @@
             color: white;
             background-color: rgb(51, 46, 46);
             height: 30px;
+            transition: all 1s;
+        }
+        button:hover{
+            color: blue;
+            height: 35px;
+            background-image: linear-gradient(red,black);
         }
         .afterHeader{
             width: 100%;
@@ -54,6 +60,7 @@
             justify-content: space-around;
             background-color: rgb(69, 58, 58);
             flex-wrap: wrap;
+            position: relative;
         }
         .count{
             width: 25%;
@@ -62,6 +69,10 @@
             background-color: ghostwhite;
             font-size: 10px;
             border-radius: 20px;
+            transition: all 1s;
+        }
+        .count:hover{
+            transform: rotate(360deg);
         }
         .image{
             width: 90%;
@@ -71,6 +82,10 @@
             border-radius: 20px;
             background-size: cover;
             background-position-y:-20px ;
+            transition: all 2S;
+        }
+        .image:hover{
+            background-image: url('https://i.pinimg.com/236x/ce/56/0b/ce560b5731662dd30fb93d5b748abbce.jpg');
         }
         .cc{
             margin: 30px;
@@ -79,14 +94,12 @@
         }
         .footer{
             width: 100%;
-            height: 300px;
+            height: 250px;
             display:flex;
-            gap: 10px;
         }
         .part1{
             width:50%;
             height: 290px;
-            margin: 5px 0px;
             background-color: blue;
             position: relative;
         }
@@ -98,8 +111,16 @@
         .part2{
             width:50%;
             height: 290px;
-            margin: 5px 0px;
             background-color: black;
+            text-align: center;
+        }
+        .lastpice{
+            background-color: rgb(24, 21, 21);
+            color: white;
+            width: 100%;
+            position: absolute;
+            top: 860px;
+            height: 50px;
             text-align: center;
         }
     </style>
@@ -172,6 +193,12 @@
                     <h1 style="color: white; margin: 0 0 10px 0;">Abous US</Canvas></h1>
                 <p style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis molestias quibusdam blanditiis natus veritatis amet commodi totam sapiente dicta temporibus, ab nobis reiciendis est nemo alias similique explicabo inventore expedita.</p>
                 </div>
+            </div>
+        </div>  
+        <div class="lastpice">
+            <div class="ccc">
+                <p><a href="mailto:habeeb.alafeef22@gmail.com">Habeeb.alafeef22@gmail.com</a></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut enim sapiente nam ex a itaque commodi</p>
             </div>
         </div>
     </div>
